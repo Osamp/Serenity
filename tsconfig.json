@@ -6,12 +6,18 @@
       "@/*": [
         "./*"
       ]
-    }
+    },
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+     "declarations.d.ts",
+    "**/*.jpg", 
+    "**/*.png" 
   ]
 }
