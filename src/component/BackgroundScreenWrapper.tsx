@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Text, View, StyleSheet ,Image,ImageSourcePropType } from 'react-native';
-import { SCREEN_WIDTH } from '../utils/CONST_LAYOUTS';
+import { SCREEN_WIDTH, } from '../utils/CONST_LAYOUTS';
+
 
 interface BackgroundScreenWrapperProps {
     image: ImageSourcePropType ;

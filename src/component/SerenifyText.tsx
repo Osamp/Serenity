@@ -27,20 +27,20 @@ const SerenifyText = ({
         fontSize = 24
     }
     if(heading){
-        fontSize = 18
+        fontSize =20 
     }
     
     if(bodyS){
-        fontSize = 14
+        fontSize =14 
     }
   return (
      
         <Text
           style={{
-            fontSize: fontSize,
+             fontSize,
             alignSelf: centre ? 'center' : 'auto',
             fontWeight: bold ? '800' : '400',
-            color: color || '#000',
+            color: color ? color : '#111',
           }}
         >
           {children}
